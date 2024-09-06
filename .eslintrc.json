@@ -1,7 +1,12 @@
+/*
+  EsLint Ref                                : https://eslint.org/docs/rules/
+  Typescript-EsLint Ref                     : https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin/docs/rules
+  Prettier Ref (config in .prettierrc.json) : https://prettier.io/docs/en/index.html
+*/
 {
-  "extends": [
-    "next/core-web-vitals",
-    "next/typescript",
-    "prettier"
-  ]
+  "$schema": "https://json.schemastore.org/eslintrc.json",
+  "extends": ["next/core-web-vitals", "next/typescript", "prettier"],
+  "rules": {
+    "@typescript-eslint/no-unused-vars": "off"
+  }
 }
