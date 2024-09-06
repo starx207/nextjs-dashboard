@@ -1,4 +1,3 @@
-// Left off tutorial at: https://nextjs.org/learn/dashboard-app/setting-up-your-database
 import AcmeLogo from '@/app/ui/acme-logo';
 import { ArrowRightIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
